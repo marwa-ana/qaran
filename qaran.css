@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding:0;
+    min-height:120 px;
+    background-color: rgb(121, 28, 51);
+    font-family: "cairo" sans-serif;
+    color: aliceblue;
+}
+section{
+    position: relative;
+    min-height: 5vh;
+    display: flex;
+    justify-self:center;
+    align-items: center;
+}
+div button{
+    width:80px;
+    padding: 3px;
+    font-family: "cairo" sans-serif;
+    background-color: aliceblue;
+    font-size: 22px;
+    color:rgb(4, 3, 1);
+    border: 2px solid white;
+    margin-top: 10px;
+    font-style: bold;
+    border-radius: 20px 0px 20px 0px;
+    cursor: pointer;
+    transition: 1s;
+    
+
+}
+div button:hover{
+    color:blue;
+    background: hsl(29,93%,48%);
+    border: 2px solid;
+
+}
+#s1 ,#s2,#s3,#s4,#s5{
+    width: 400px;
+    height: 330px;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: ;
+    color:rgb(212, 138, 0);
+    text-shadow: :1 px 1px white;
+    display:none;
+}
+#rob{
+    counter-reset: white;
+    font-size: 22px;
+    font-weight: bold;
+
+
+}
+#ins{
+    float: left;
+}
